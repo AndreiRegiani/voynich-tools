@@ -5,6 +5,11 @@ http://voynich.freie-literatur.de/index.php?show=extractor
 
 This script makes the transcription file more readable for humans
 and more friendly to be parsed by modern programming languages like Python
+
+Example:
+
+IN:  fachys.ykal.ar.ataiin.Shol.Shory.cTh!res.y.kor.Sholdy!-
+OUT: fachys ykal ar ataiin Shol Shory cThres y kor Sholdy  
 """
 
 from sys import argv
