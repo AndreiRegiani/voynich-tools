@@ -8,8 +8,8 @@ and more friendly to be parsed by modern programming languages like Python
 
 Example:
 
-IN:  fachys.ykal.ar.ataiin.Shol.Shory.cTh!res.y.kor.Sholdy!-
-OUT: fachys ykal ar ataiin Shol Shory cThres y kor Sholdy  
+FILE IN:  fachys.ykal.ar.ataiin.Shol.Shory.cTh!res.y.kor.Sholdy!-
+FILE OUT: fachys ykal ar ataiin Shol Shory cThres y kor Sholdy  
 """
 
 from sys import argv
@@ -34,3 +34,4 @@ if len(argv) == 2:
     main(argv[1])
 else:
     print("Usage: input_file")
+
